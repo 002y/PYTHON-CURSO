@@ -11,4 +11,5 @@ print('{} x 8 = {}'.format(n, n*8))
 print('{} x 9 = {}'.format(n, n*8))
 print('{} x 10 + {}'.format(n, n*10))
 print('_'*12)
-
+#for i in range(10):
+#   print(f'{n} X {i} = {n * i}')
