@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f72f647-1e3c-4014-98b5-f8db4869e41c" name="Changes" comment="" />
+    <list default="true" id="1f72f647-1e3c-4014-98b5-f8db4869e41c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../aulas/aula 17' listas'.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mundo 3/ex076.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mundo 3/ex077.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mundo 3/ex078.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mundo 3/ex079.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mundo 3/ex075.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mundo 3/ex075.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +30,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Documents/PYTHON-CURSO"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/002y/Documents/PYTHON/PYTHON-CURSO/mundo 2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,8 +43,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671648820139</updated>
+      <workItem from="1680881991025" duration="70000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
