@@ -1,4 +1,9 @@
 from time import sleep
+from tqdm import tqdm
+
+def long_running_function():
+    for i in tqdm(range(100)):
+        sleep(0.005)
 
 print(' BOLETIM '.center(60, '='))
 
@@ -40,6 +45,7 @@ while True:
         sleep(2)
         break
     if n <= len(ficha) -1:
+        long_running_function()
         print(f'as notas de {ficha[n][0]} são {ficha[n][1]}')
         print()
 

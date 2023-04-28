@@ -14,5 +14,5 @@ if b > a and b > c:
 if c > a and c > b:
     maior = c
 #resposta
-print ('the smallest number was {}'.format(menor))
-print ('the largest number was {}'.format(maior))
+print('the smallest number was {}'.format(menor))
+print('the largest number was {}'.format(maior))
