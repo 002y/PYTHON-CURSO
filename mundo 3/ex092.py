@@ -48,4 +48,4 @@ elif rest > 62:
     print(f'parabéns {pessoa["nome"]}, você já se aposentou')
 
 if pessoa['CLT'] == 0:
-    print("hey men, how's life? ")
+    print("ooh hey men, how's life? ")
