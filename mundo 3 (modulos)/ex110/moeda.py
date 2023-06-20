@@ -1,3 +1,13 @@
+def resumo(p, aum, dec):
+    rest = [
+    aumentar(p, aum),
+    diminuir(p, dec),
+    dobro(p),
+    metade(p)]
+    return rest
+
+
+
 def moeda(preco=0, moeda='R$'):
     return f'{moeda}{preco:.2f}'.replace('.', ',')
 

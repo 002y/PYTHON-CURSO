@@ -15,14 +15,15 @@ while True:
     if resposta == 1:
         num_aumento = float(input('qual preço você quer aumentar? R$'))
         aumento = int(input('qual vai ser a porcentagem? '))
-        aum_resultado = aumentar(num_aumento, aumento)
-        print(f'{moeda(num_aumento)} sendo aumentado por {aumento}% é {moeda(aum_resultado)}')
+        aum_resultado = aumentar(num_aumento, aumento, True)
+        print(f'{moeda(num_aumento)} sendo aumentado por {aumento}% é {aum_resultado}')
+
 
     elif resposta == 2:
         num_decrescimo = float(input('qual preço você quer diminuir? R$'))
         decrescimo = int(input('qual vai ser a porcentagem? '))
-        dec_resultado = diminuir(num_decrescimo, decrescimo)
-        print(f'{moeda(num_decrescimo)} sendo diminuido por {decrescimo}% é {moeda(dec_resultado)}')
+        dec_resultado = diminuir(num_decrescimo, decrescimo, True)
+        print(f'{moeda(num_decrescimo)} sendo diminuído por {decrescimo}% é {dec_resultado}')
 
     elif resposta == 3:
         num_dobro = float(input('qual preço você quer dobrar? R$'))
